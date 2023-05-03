@@ -21,7 +21,7 @@ boolean finish=false;
 				JPanel panel = new JPanel();
 				JFrame frame = new JFrame("3");
 			 	JLabel label = new JLabel();
-		        label.setIcon(new ImageIcon("3.png"));// your image here
+		        label.setIcon(new ImageIcon("resources/3.png"));// your image here
 		        label.setVisible(true);
 		        panel.add(label);
 		        frame.add(panel);
@@ -38,7 +38,7 @@ boolean finish=false;
 				JPanel panel = new JPanel();
 				JFrame frame = new JFrame("3");
 			 	JLabel label = new JLabel();
-		        label.setIcon(new ImageIcon("2.png"));// your image here
+		        label.setIcon(new ImageIcon("resources/2.png"));// your image here
 		        label.setVisible(true);
 		        panel.add(label);
 		        frame.add(panel);
@@ -55,7 +55,7 @@ boolean finish=false;
 				JPanel panel = new JPanel();
 				JFrame frame = new JFrame("3");
 			 	JLabel label = new JLabel();
-		        label.setIcon(new ImageIcon("1.png"));// your image here
+		        label.setIcon(new ImageIcon("resources/1.png"));// your image here
 		        label.setVisible(true);
 		        panel.add(label);
 		        frame.add(panel);
@@ -97,7 +97,7 @@ boolean finish=false;
 				});	
 		frameintro.add(a3);
         JLabel label = new JLabel();
-        label.setIcon(new ImageIcon("Hangonintro.png"));// your image here
+        label.setIcon(new ImageIcon("resources/Hangonintro.png"));// your image here
         panel.add(label);
         label.setVisible(true);      
 		frameintro.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

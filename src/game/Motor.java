@@ -17,55 +17,55 @@ Image collided;
 Timer timer;
 boolean left,right,up,down,outofbounds=false;
 boolean collision=false,finish=false,boundcrash=false;
-public static final String speedup ="GAZ.mp3";
+public static final String speedup ="resources/GAZ.mp3";
 MP3Player mp3player = new MP3Player(new File(speedup));
 
-public static final String speeddown ="FREN.mp3";
+public static final String speeddown ="resources/FREN.mp3";
 MP3Player mp3player2 = new MP3Player(new File(speeddown));
 
 
-ImageIcon motor = new ImageIcon("Motor.png");
-ImageIcon motorR1 = new ImageIcon("Motor_R1.png");
-ImageIcon motorR2 = new ImageIcon("Motor_R2.png");
-ImageIcon motorR3 = new ImageIcon("Motor_R3.png");
-ImageIcon motorR4 = new ImageIcon("Motor_R4.png");
-ImageIcon motorR5 = new ImageIcon("Motor_R5.png");
-ImageIcon motorR6 = new ImageIcon("Motor_R6.png");
-ImageIcon motorR7 = new ImageIcon("Motor_R7.png");
-ImageIcon motorL1 = new ImageIcon("Motor_L1.png");
-ImageIcon motorL2 = new ImageIcon("Motor_L2.png");
-ImageIcon motorL3 = new ImageIcon("Motor_L3.png");
-ImageIcon motorL4 = new ImageIcon("Motor_L4.png");
-ImageIcon motorL5 = new ImageIcon("Motor_L5.png");
-ImageIcon motorL6 = new ImageIcon("Motor_L6.png");
-ImageIcon motorL7 = new ImageIcon("Motor_L7.png");
+ImageIcon motor = new ImageIcon("resources/Motor.png");
+ImageIcon motorR1 = new ImageIcon("resources/Motor_R1.png");
+ImageIcon motorR2 = new ImageIcon("resources/Motor_R2.png");
+ImageIcon motorR3 = new ImageIcon("resources/Motor_R3.png");
+ImageIcon motorR4 = new ImageIcon("resources/Motor_R4.png");
+ImageIcon motorR5 = new ImageIcon("resources/Motor_R5.png");
+ImageIcon motorR6 = new ImageIcon("resources/Motor_R6.png");
+ImageIcon motorR7 = new ImageIcon("resources/Motor_R7.png");
+ImageIcon motorL1 = new ImageIcon("resources/Motor_L1.png");
+ImageIcon motorL2 = new ImageIcon("resources/Motor_L2.png");
+ImageIcon motorL3 = new ImageIcon("resources/Motor_L3.png");
+ImageIcon motorL4 = new ImageIcon("resources/Motor_L4.png");
+ImageIcon motorL5 = new ImageIcon("resources/Motor_L5.png");
+ImageIcon motorL6 = new ImageIcon("resources/Motor_L6.png");
+ImageIcon motorL7 = new ImageIcon("resources/Motor_L7.png");
 
 
-ImageIcon enemyS1 = new ImageIcon("enemy_S1.png");
-ImageIcon enemyS2 = new ImageIcon("enemy_S2.png");
-ImageIcon enemyS3 = new ImageIcon("enemy_S3.png");
-ImageIcon enemyS4 = new ImageIcon("enemy_S4.png");
-ImageIcon enemyS5 = new ImageIcon("enemy_S5.png");
-ImageIcon enemyS6 = new ImageIcon("enemy_S6.png");
+ImageIcon enemyS1 = new ImageIcon("resources/enemy_S1.png");
+ImageIcon enemyS2 = new ImageIcon("resources/enemy_S2.png");
+ImageIcon enemyS3 = new ImageIcon("resources/enemy_S3.png");
+ImageIcon enemyS4 = new ImageIcon("resources/enemy_S4.png");
+ImageIcon enemyS5 = new ImageIcon("resources/enemy_S5.png");
+ImageIcon enemyS6 = new ImageIcon("resources/enemy_S6.png");
 
 
-ImageIcon track1 = new ImageIcon("Collision1.png");
-ImageIcon track2 = new ImageIcon("Collsion2.png");
-ImageIcon track3 = new ImageIcon("Collision3.png");
-ImageIcon track4 = new ImageIcon("Collision4.png");
-ImageIcon track5 = new ImageIcon("Collision5.png");
-ImageIcon track6 = new ImageIcon("Collision6.png");
-ImageIcon track7 = new ImageIcon("Collision7.png");
-ImageIcon track8 = new ImageIcon("Collision8.png");
-ImageIcon track9 = new ImageIcon("Collision9.png");
-ImageIcon track10 = new ImageIcon("Collision10.png");
+ImageIcon track1 = new ImageIcon("resources/Collision1.png");
+ImageIcon track2 = new ImageIcon("resources/Collsion2.png");
+ImageIcon track3 = new ImageIcon("resources/Collision3.png");
+ImageIcon track4 = new ImageIcon("resources/Collision4.png");
+ImageIcon track5 = new ImageIcon("resources/Collision5.png");
+ImageIcon track6 = new ImageIcon("resources/Collision6.png");
+ImageIcon track7 = new ImageIcon("resources/Collision7.png");
+ImageIcon track8 = new ImageIcon("resources/Collision8.png");
+ImageIcon track9 = new ImageIcon("resources/Collision9.png");
+ImageIcon track10 = new ImageIcon("resources/Collision10.png");
 
-ImageIcon collided1 = new ImageIcon("Carpti1.png");
-ImageIcon collided2 = new ImageIcon("Carpti2.png");
-ImageIcon collided3 = new ImageIcon("Carpti3.png");
-ImageIcon collided4 = new ImageIcon("Carpti4.png");
-ImageIcon collided5 = new ImageIcon("Carpti5.png");
-ImageIcon collided6 = new ImageIcon("Carpti6.png");
+ImageIcon collided1 = new ImageIcon("resources/Carpti1.png");
+ImageIcon collided2 = new ImageIcon("resources/Carpti2.png");
+ImageIcon collided3 = new ImageIcon("resources/Carpti3.png");
+ImageIcon collided4 = new ImageIcon("resources/Carpti4.png");
+ImageIcon collided5 = new ImageIcon("resources/Carpti5.png");
+ImageIcon collided6 = new ImageIcon("resources/Carpti6.png");
 
 public Motor() {		
 	still=motor.getImage();

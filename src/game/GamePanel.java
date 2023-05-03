@@ -17,8 +17,8 @@ Graphics g2;
 		p = new Motor();
 		setFocusable(true);
 			
-		ImageIcon background = new ImageIcon("backgorundnew1.jpg");
-		ImageIcon background2 = new ImageIcon("backgorundnew2.jpg");
+		ImageIcon background = new ImageIcon("resources/backgorundnew1.jpg");
+		ImageIcon background2 = new ImageIcon("resources/backgorundnew2.jpg");
 		ImageIcon motor = new ImageIcon("Motor.png");
 	//	ImageIcon mountains = new ImageIcon();
 		img1 = background.getImage();
